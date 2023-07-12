@@ -88,8 +88,19 @@ button:hover {
   background-position: center center;
   background-size: cover;
   min-height: 25rem;
+  
  
   
   
   
+}
+
+.bug-container {
+  display: flex;
+  justify-content: center;
+}
+
+.bug {
+  color: var(--text-white);
+  justify-content: center;
 }

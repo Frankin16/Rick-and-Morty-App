@@ -56,7 +56,7 @@ function App() {
           </div>)
           : (
             hasError
-            ? ( <h2>❌Hey! you moust provide an id fron 1 to 126</h2> )
+            ? ( <div className='bug-container'><h2 className='bug'>❌Hey! you moust provide an id fron 1 to 126</h2></div> )
             : (
             <>
               <div className='location-container'>
